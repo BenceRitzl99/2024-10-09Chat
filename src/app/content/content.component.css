@@ -1,0 +1,14 @@
+app-messages{
+    background: #9a9a9a;
+    position: fixed;
+    display: block;
+    overflow-y: scroll;
+    height: 75%;
+    
+}
+app-send{
+    background: #ffffff;
+    height: 25%;
+    display: block;
+
+}

@@ -1,0 +1,13 @@
+<!-- {{messages|json}} -->
+ <button (click)="pageDown()">Le</button>
+<div class="content">
+    <div 
+        *ngFor="let message of messages" 
+        class="message"    
+        [ngClass]="message.userName=='RBence'?'mymessage':''">
+        <div class="username">{{message.userName}}</div>
+        <div class="uzi">{{message.uzi}}</div>
+    </div>
+    
+</div>
+<div id="pageEnd"></div> 

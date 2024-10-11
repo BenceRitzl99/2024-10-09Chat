@@ -1,0 +1,4 @@
+<div class="form">
+    <textarea [(ngModel)]="message" class="form-control" placeholder="Leave a message here"></textarea>
+    <button [disabled]="!userName" (click)="sendMessage()" type="button" class="btn btn-success mt-2">Send</button>
+</div>
